@@ -15,7 +15,7 @@
 						<a class="nav-link" href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">สมัครสอบ</a>
+						<a class="nav-link" href="application_form.php">สมัครสอบ</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">สารพันปัณหา (FAQ) </a>
