@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-     --detail_button: #64B5D0;
-     --border_button:#64B5D0;
-     --color_main:#64B5D0;
+     --detail_button: #2ec0e5;
+     --border_button:#2ec0e5;
+     --color_main:#2ec0e5;
+     --link_color_main: #2ec0e5;
+     --icon_main:#2ec0e5;
+}
+a{
+    color:var(--link_color_main);
 }
 body{
      font-family: 'Prompt', sans-serif;
@@ -116,6 +121,34 @@ ul#main_menu li a{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.box_form{
+    margin-top: 5%;
+}
+.navigation{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-radius: 0.25rem;
+}  
+.icon{
+    font-size: 100px;
+    color:var(--icon_main)
+} 
+.icon_faq{
+    color:var(--icon_main)
+}
+.icon_file{
+    color:var(--icon_main)
+}
+.but_faq{
+        font-weight: 400;
+        color:var(--link_color_main);
+        text-decoration: none;
+}
  @media (min-width: 768px) { 
      .address h4 {
           font-size: 15px;
@@ -124,6 +157,10 @@ ul#main_menu li a{
           margin-top: 2%;
           color: #fff;
       }  
+      .box_form{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
   }
   @media (min-width: 1024px) { 
      .address h4 {
@@ -131,6 +168,10 @@ ul#main_menu li a{
       }    
       ul#main_menu li a {
        font-size: 15px;  
+      }
+      .box_form{
+        margin-top: 5%;
+        margin-bottom: 5%;
       }
   }
   @media (min-width: 1200px) { 

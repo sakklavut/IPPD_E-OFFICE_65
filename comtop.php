@@ -12,5 +12,7 @@
 		<link href="assets/fontawesome/css/solid.css" rel="stylesheet">
 		<link rel="shortcut icon" href="assets/img/favicon.png">
 		<title>  ระบบบริหารทรัพยากรบุคคล) </title>
+
+		
 	</head>
 	<body>
